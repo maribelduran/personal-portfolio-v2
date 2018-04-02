@@ -1,3 +1,21 @@
-import React from "react"
+import React from "react";
+import Cover from '../components/cover';
+import Navigation from '../components/navigation';
+import AboutMe from '../components/about-me';
+import Projects from '../components/projects';
+import Contacts from '../components/contacts';
+import Footer from '../components/footer';
 
-export default () => <div>This is my first Gatsby website!</div>
+const HomePage = () => 
+<div>
+  <Cover />
+  <Navigation />
+  <AboutMe />
+  <Projects />
+  <Contacts />
+  <Footer />
+</div>
+
+
+
+export default HomePage;
