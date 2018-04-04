@@ -1,0 +1,78 @@
+.cover{
+    width: 100%;
+    height: 100vh;
+    /*background-image: url(../images/AirBalloon.jpeg);  */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    overflow: hidden;
+    /* Pick a solid background color that will be displayed while the background image is loading */
+     background-color: white;
+     position:relative;
+     animation-duration: 3s;
+    -webkit-animation-duration: 3s;  
+  }
+  
+.center{
+    margin: 0;
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .name{
+    font-size: 80px;
+    font-weight:900;
+  }
+  
+  .greetings{
+    font-weight: bold !important;
+  }
+  
+  .overlay{
+    background: #337ab7;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+    top: 0;
+    left: 0;
+    opacity: 0.3;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .arrow{
+    position: absolute;
+    bottom: 0;
+    display: block;
+    left: 50%;
+    margin-left: -50px;
+    width: 100px;
+    z-index: 1;
+    box-sizing: border-box;
+    transition: all 0.5s ease; 
+    animation-delay:  0.5s;   
+    -webkit-animation-delay: 0.5s;     
+  }
+  
+  .arrow .btn{
+    color: white;
+    font-size: 35px;
+    padding: 0;
+    width: 100%;
+  }
+  
+  .arrow:hover .btn{
+     transform: scale(1.20); 
+  }

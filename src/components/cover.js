@@ -1,18 +1,18 @@
 import React from "react";
+import  "./cover.css";
 
 const Cover = () =>
-<div id="cover" class="animated fadeIn">
-<div class="overlay">
-</div>
-  <div class="center">
-    <h1 id="cover-name" class="text-center">
+<div id="cover" className="cover animated fadeIn">
+  <div className="overlay"></div>
+  <div className="center">
+    <h1 className="name">
       <b>HI, I'M MARIBEL</b>
     </h1>
-    <p class="greetings">Let's change the world together!</p>
+    <p className="greetings">Let's change the world together!</p>
   </div>
-  <div class="arrow animated bounceInDown">
-    <a href="#about" class="btn btn-md">
-      <span class="glyphicon glyphicon-menu-down"></span>
+  <div className="arrow animated bounceInDown">
+    <a href="#about" className="btn btn-md">
+      <span className="glyphicon glyphicon-menu-down"></span>
     </a>
   </div>
 </div>
