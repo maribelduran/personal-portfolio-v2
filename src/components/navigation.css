@@ -1,0 +1,74 @@
+.navbar {
+    background-color: transparent;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px;
+     transition: all 1s ease; 
+     -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+  }
+
+  .no-botton-border{
+    border-bottom: none;
+  }
+  
+  /* Used for when body scroll type is greater than 75 
+  .navbar-border{
+    border-bottom: 2px solid #cccccc;
+  }
+  
+  .white-background{
+    background-color: white;
+  }
+
+  
+  // Using bootstrap's navbar default blue color: #337ab7 
+  .bootstrap-blue{
+    color: #337ab7 !important;
+  }
+
+  .bootstrap-background-color{
+    background-color: #337ab7 !important;
+  }
+*/
+
+  
+  .navbar-brand, .navbar-right a{
+    color: white !important; 
+  }
+
+  .navbar-brand{
+    font-size: 25px;
+  }
+  
+  #myNavbar a:visited, #myNavbar a:link {
+    background-color: transparent;
+  }
+  
+  .navbar-nav a:hover {
+   background-color: transparent;
+   text-decoration: underline !important;
+  }
+  
+  .navbar-nav .divider a{
+    border-left: solid;
+    border-bottom: none;
+    margin-top: 10px;
+    margin-right: -60px;
+    margin-left: 15px;
+    width: 80px;
+  }
+  
+  .navbar-nav .divider a:hover{
+    text-decoration: none !important;
+  }
+  
+  .active{
+    text-decoration: underline;
+  }
+
+  .icon-bar{
+    background-color: white !important;
+  }
