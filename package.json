@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "gatsby": "^1.9.232",
-    "gatsby-link": "^1.6.39"
+    "gatsby-link": "^1.6.39",
+    "react-bootstrap": "^0.32.1"
   }
 }
