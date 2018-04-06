@@ -1,12 +1,14 @@
 import React from "react";
+import  "./about-me.css";
+//create a json object that contains list of hobbies and Mission, more info about me
 
 const AboutMe = () =>
-<div>
+<section id="about" className="section">
   <h2 className="text-center">ABOUT ME</h2>
   <div className= "section-content">
     <div className="row">
       <div className="col-xs-12 col-sm-6 col-md-5 col-md-offset-1">
-        <img className="img-responsive center-block" src="images/aboutme/Maribel.JPG" alt="Large image of Maribel"/>
+        <img className="img-responsive center-block" src="../assets/images/aboutme/Maribel.JPG" alt="Large image of Maribel"/>
       </div>      
       <div className="col-xs-12 col-sm-6 col-md-6">
         <h4>What I hope to do</h4>
@@ -28,42 +30,43 @@ const AboutMe = () =>
         </div>     
       </div>
       <div className="row">
-          <div className="col-md-4 col-md-offset-1 col-sm-4 col-xs-12 ">
-            <div className="box">
-              <h5>Toolbox</h5>
+        <div className="col-md-4 col-md-offset-1 col-sm-4 col-xs-12 ">
+          <div className="box">
+            <h5>Toolbox</h5>
             <p>
-                <b>Languages and Frameworks:</b> Javascript, HTML5, CSS3, jQuery, Bootstrap, NodeJS, ExpressJS, MongoDB
-                <br></br>
-                <b>IDE:</b> Microsoft VS Code
-                <br></br>
-                <b>VCS:</b> Git/Github
-                <br></br>
-                <b>PMS:</b> Trello
-                <br></br>
-                <b>Debugger:</b> Chrome DevTools
-                <br></br>
+              <b>Languages and Frameworks:</b> Javascript, HTML5, CSS3, jQuery, Bootstrap, NodeJS, ExpressJS, MongoDB
+              <br></br>
+              <b>IDE:</b> Microsoft VS Code
+              <br></br>
+              <b>VCS:</b> Git/Github
+              <br></br>
+              <b>PMS:</b> Trello
+              <br></br>
+              <b>Debugger:</b> Chrome DevTools
+              <br></br>
             </p>
-            </div>
           </div>
-          <div className="col-md-3 col-sm-4  col-xs-6 ">
+        </div>
+        <div className="col-md-3 col-sm-4  col-xs-6 ">
            <div className="box"><h5>Learning</h5>
             <p>Currently: ReactJS and CSS Variables
                <br></br> On the radar: CSS Grid
             </p>
-         </div>
-         </div>
-         <div className="col-md-4  col-sm-4 col-xs-6 ">
-           <div className="box"><h5>Hacking on</h5>
+          </div>
+        </div>
+        <div className="col-md-4  col-sm-4 col-xs-6 ">
+          <div className="box">
+            <h5>Hacking on</h5>
             <p> 1) Contributing to a Resiliency Map, which will help the city of San Francisco prepare for a natural disaster.
                 <br></br>
                 2) Rebuilding this website with GatsbyJS and ReactJS.
                 <br></br>
                 3) Voting App: A fullstack Javascript application.
             </p>
-          </div>
         </div>
       </div>
-      </div>
-</div>
+    </div>
+  </div>
+</section>
 
 export default AboutMe;

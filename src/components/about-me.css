@@ -1,0 +1,38 @@
+.hobbies{
+  margin: auto;
+  margin-top: 10px;
+  text-align: center;
+ }
+ 
+ .hobby-icon{
+   height: 30px;
+ }
+ 
+ .icon{
+   height: 80px;
+   width: 100px;
+   margin: auto;
+   margin-top: 10px;
+ }
+ 
+ .box{
+   padding: 15px;
+   margin-bottom: 40px;
+   border-style: solid;
+   border-color: rgba(51, 122, 183, 0.10);
+   border-width: thin;
+   border-radius: 5px;
+   box-shadow: 0 12px 12px 0 #D3D3D3;
+   box-sizing: border-box;
+   background-color: white;
+ }
+ 
+ .box h5{
+   font-weight: 500px;
+   border-bottom: 2px solid #0a0a0a
+ }
+ 
+ .box p{
+   font-size: 14px;
+ }
+ 
