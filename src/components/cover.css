@@ -13,9 +13,29 @@
     /* Pick a solid background color that will be displayed while the background image is loading */
      background-color: white;
      position:relative;
-     animation-duration: 3s;
-    -webkit-animation-duration: 3s;  
   }
+
+  .animated{
+    -webkit-animation-duration: 3s;  
+    animation-duration: 3s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+  }
+
+  @-webkit-keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+ }
+ 
+ @keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+ }
+ 
+ .fadeIn {
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+ }
   
 .center{
     margin: 0;
