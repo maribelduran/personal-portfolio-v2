@@ -1,19 +1,42 @@
-import React from "react";
+import React, {Component} from "react";
+import {FormGroup, ControlLabel, FormControl} from 'react-bootstrap';
+import './projects.css'
 
-const Projects = () =>
-  <div id="projects" className="section">
-    <h2 className="text-center">PROJECTS</h2>
-    <div className="section-content">
-        <div className="form-group">
-          <div className='subheader'>
-            <select id="select-project-type" className="form-control">
-              <option value="front-end" selected>Front End</option>
+//create a JSON object that lists the projects
+
+class Projects extends Component {
+
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      selectedType: 'front-end'
+    };
+
+    this.onSelectChange = this.onSelectChange.bind(this);
+  }
+  onSelectChange(e) {
+    this.setState = { selectedType: e.target.value};
+  }
+
+  render(){
+
+    return(
+      <section id="projects" className="section projects">
+        <h2 className="text-center">PROJECTS</h2>
+        <div className="section-content">
+          <FormGroup controlId="formControlsSelect">
+            <FormControl 
+                componentClass="select" 
+                placeholder="select" 
+                defaultValue={this.state.selectedType}
+                onChange={this.onSelectChange}>
+              <option value="front-end" >Front End</option>
               <option value="back-end">Back End</option>
-            </select>
-          </div>
-        </div>
-       
-        <div id="project-list" >
+            </FormControl>
+          </FormGroup>
+
+        <div className="project-list" >
         <a href="http://www.maribelduran.com/Hacking4Humanity2017/web/index.html" className="single-card front-end" target="_blank" >
             <div className="card-img">
               <img className="card-img_src center-block" src="images/frontend/EmpowerHerSF_cover.png" alt="Screenshot of project" />
@@ -178,6 +201,9 @@ const Projects = () =>
           </a>
         </div>
     </div>
-  </div>
+    </section>
+  )
+ }
+}
 
-  export default Projects;
+export default Projects;
