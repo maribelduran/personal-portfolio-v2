@@ -1,49 +1,50 @@
 import React from "react";
+import "./contacts.css";
 
 const Contacts = () => {
 return(
-    <div id="contact" class="section">
-      <h2 class="text-center">CONTACT</h2>
-      <div class="row text-center section-content">
+    <section id="contact" className="section contact">
+      <h2 className="text-center">CONTACT</h2>
+      <div className="row text-center section-content">
         {/* Github log */}
-        <div class="col-sm-2">
-          <a href="https://github.com/maribelduran" target="_blank" class="btn btn-social-icon btn-instagram">
-            <span class="fa fa-github"></span>
+        <div className="col-sm-2">
+          <a href="https://github.com/maribelduran" target="_blank" className="btn btn-social-icon">
+            <span className="fa fa-github"></span>
           </a>
         </div>
          {/* Twitter logo} */ }
-        <div class="col-sm-2">
-          <a href="https://twitter.com/maribeldotduran" target="_blank" class="btn btn-social-icon btn-instagram">
-            <span class="fa fa-twitter"></span>
+        <div className="col-sm-2">
+          <a href="https://twitter.com/maribeldotduran" target="_blank" className="btn btn-social-icon">
+            <span className="fa fa-twitter"></span>
           </a>
         </div>
          {/* Medium logo} */ }
-        <div class="col-sm-2">
-          <a href="https://medium.com/@maribelduran" target="_blank" class="btn btn-social-icon btn-instagram">
-            <span class="fa fa-medium"></span>
+        <div className="col-sm-2">
+          <a href="https://medium.com/@maribelduran" target="_blank" className="btn btn-social-icon btn">
+            <span className="fa fa-medium"></span>
           </a>
         </div>
        {/* Instagram logo} */ }
-        <div class="col-sm-2">
-          <a href="https://www.instagram.com/mariclay" target="_blank" class="btn btn-social-icon btn-instagram">
-            <span class="fa fa-instagram"></span>
+        <div className="col-sm-2">
+          <a href="https://www.instagram.com/mariclay" target="_blank" className="btn btn-social-icon">
+            <span className="fa fa-instagram"></span>
           </a>
         </div>
         {/* LinkedIn logo} */ }
-        <div class="col-sm-2">
-          <a href="https://www.linkedin.com/in/maribelduran" target="_blank" class="btn btn-social-icon btn-linkedin">
-            <span class="fa fa-linkedin"></span>
+        <div className="col-sm-2">
+          <a href="https://www.linkedin.com/in/maribelduran" target="_blank" className="btn btn-social-icon btn-linkedin">
+            <span className="fa fa-linkedin"></span>
           </a>
         </div>
          {/* Envelope logo} */ }
-        <div class="col-sm-2">
-          <a href="mailto:maribelduranucm@gmail.com" target="_blank" class="btn btn-social-icon btn-envelope">
-            <span class="fa fa-envelope"></span>
+        <div className="col-sm-2">
+          <a href="mailto:maribelduranucm@gmail.com" target="_blank" className="btn btn-social-icon btn-envelope">
+            <span className="fa fa-envelope"></span>
           </a>
         </div> 
       </div> 
-    </div>
-)
+    </section>
+  )
 }
 
 export default Contacts;
