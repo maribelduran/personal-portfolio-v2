@@ -1,0 +1,32 @@
+[
+  {
+    "icon": "github",
+    "type": "social-media",
+    "url": "https://github.com/maribelduran"
+  }, 
+  {
+    "icon": "twitter",
+    "type": "social-media",
+    "url": "https://twitter.com/maribeldotduran"
+  },
+  {
+    "icon": "medium",
+    "type": "social-media",
+    "url": "https://medium.com/@maribelduran"
+  },
+  {
+    "icon": "instagram",
+    "type": "social-media",
+    "url": "https://www.instagram.com/mariclay"
+  },
+  {
+    "icon": "linkedin",
+    "type": "social-media",
+    "url": "https://www.linkedin.com/in/maribelduran"
+  },
+  {
+    "icon": "envelope",
+    "type": "email",
+    "url": "mailto:maribelduranucm@gmail.com"
+  }
+]
