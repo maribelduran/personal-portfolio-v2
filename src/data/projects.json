@@ -105,7 +105,7 @@
   {
     "name": "Timestamp Microservice",
     "type": "back-end",
-    "description": "his service accepts a string and returns both the Unix timestamp and the natural language form of that date as a JSON object. Built using Node.js and Express.",
+    "description": "This service accepts a string and returns both the Unix timestamp and the natural language form of that date as a JSON object. Built using Node.js and Express.",
     "img": "Timestamp.png",
     "url": "https://timestamp-micro-srvc.herokuapp.com/",
     "date-added": "2017-09-02"
@@ -113,9 +113,17 @@
   {
     "name": "Image Search Abstraction Microservice",
     "type": "back-end",
-    "description": " This service accepts a search string and will return a set of image results from a Google custom search engine. Built using, MongoDB, Node.js, and Express.",
+    "description": "This service accepts a search string and will return a set of image results from a Google custom search engine. Built using, MongoDB, Node.js, and Express.",
     "img": "ImageSearch.png",
     "url": "https://img-search-layer-microsrvc.herokuapp.com",
+    "date-added": ""
+  },
+  {
+    "name": "FCC Camper Leaderboard",
+    "type": "react",
+    "description": "",
+    "img": "",
+    "url": "https://www.maribelduran.com/camper-leaderboard",
     "date-added": ""
   }
 ]
