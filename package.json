@@ -1,5 +1,6 @@
 {
   "name": "gatsby-starter-hello-world",
+  "version": "1.0.0",
   "description": "Gatsby hello world starter",
   "license": "MIT",
   "scripts": {
@@ -8,8 +9,16 @@
     "serve": "gatsby serve"
   },
   "dependencies": {
+    "classnames": "^2.2.5",
     "gatsby": "^1.9.232",
+    "gatsby-image": "^1.0.45",
     "gatsby-link": "^1.6.39",
-    "react-bootstrap": "^0.32.1"
+    "gatsby-plugin-sharp": "^1.6.41",
+    "gatsby-plugin-sitemap": "^1.2.20",
+    "gatsby-source-filesystem": "^1.5.29",
+    "gatsby-transformer-sharp": "^1.6.22",
+    "react-bootstrap": "^0.32.1",
+    "react-scrollchor": "^5.0.1",
+    "unist-util-select": "^1.5.0"
   }
 }

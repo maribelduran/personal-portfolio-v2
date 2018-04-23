@@ -1,5 +1,7 @@
 import React, {Component} from "react";
 import { Navbar, Nav, NavItem} from 'react-bootstrap';
+//import Scrollchor from 'react-scrollchor';
+import ScrollchorItem from './scrollchor-item';
 import  "./navigation.css";
 
 const { 
@@ -47,6 +49,8 @@ class Navigation extends Component {
     const whiteBackground = (this.state.hasScrolledDown) ? "white-background navbar-border" : "";
     const fontColor = (this.state.hasScrolledDown) ? "blue-font" : "white-font";
     const bootstrapBlueBackground = (this.state.hasScrolledDown) ? "bootstrap-background-color" : "";
+
+    const scrollDuration ={duration: 1000};
      
     return(
       <Navbar className={whiteBackground} fixedTop={true} fluid={true} collapseOnSelect={true}>
@@ -61,14 +65,14 @@ class Navigation extends Component {
             activeKey={this.state.activeKey}
             pullRight
             className={fontColor}>
-          <NavItem eventKey={1} href="#about">
-            ABOUT ME
+          <NavItem eventKey={1}  >
+          <ScrollchorItem role="button" to="#about" className="nav-link">ABOUT</ScrollchorItem>
           </NavItem>
-          <NavItem eventKey={2} href="#projects" >
-            PROJECTS
+          <NavItem eventKey={2} >
+          <ScrollchorItem to="#projects" className="nav-link">PROJECTS</ScrollchorItem>
           </NavItem>
-          <NavItem eventKey={3} href="#contact">
-            CONTACT
+          <NavItem eventKey={3} >
+          <ScrollchorItem to="#contact" className="nav-link">CONTACT</ScrollchorItem>
           </NavItem>
           <NavItem eventKey={4} href="https://medium.com/@maribelduran">
             WRITING
