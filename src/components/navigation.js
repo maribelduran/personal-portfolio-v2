@@ -1,7 +1,7 @@
 import React, {Component} from "react";
 import { Navbar, Nav, NavItem} from 'react-bootstrap';
-//import Scrollchor from 'react-scrollchor';
 import ScrollchorItem from './scrollchor-item';
+import Scrollspy from 'react-scrollspy'
 import  "./navigation.css";
 
 const { 
@@ -48,9 +48,6 @@ class Navigation extends Component {
   render(){
     const whiteBackground = (this.state.hasScrolledDown) ? "white-background navbar-border" : "";
     const fontColor = (this.state.hasScrolledDown) ? "blue-font" : "white-font";
-    const bootstrapBlueBackground = (this.state.hasScrolledDown) ? "bootstrap-background-color" : "";
-
-    const scrollDuration ={duration: 1000};
      
     return(
       <Navbar className={whiteBackground} fixedTop={true} fluid={true} collapseOnSelect={true}>
@@ -61,23 +58,25 @@ class Navigation extends Component {
           <Toggle className={fontColor}/>
         </Header>
         <Collapse >
-        <Nav onSelect={this.addActiveClassName}
-            activeKey={this.state.activeKey}
-            pullRight
-            className={fontColor}>
-          <NavItem eventKey={1}  >
-          <ScrollchorItem role="button" to="#about" className="nav-link">ABOUT</ScrollchorItem>
-          </NavItem>
+        <Scrollspy 
+          items={ ['about', 'projects', 'contact'] } 
+          currentClassName="active" 
+          componentTag={Nav}
+          className={`${fontColor} navbar-right`}
+         >
+         <NavItem eventKey={1} >
+            <ScrollchorItem to="#about" className="nav-link" >ABOUT ME</ScrollchorItem>
+         </NavItem>
           <NavItem eventKey={2} >
-          <ScrollchorItem to="#projects" className="nav-link">PROJECTS</ScrollchorItem>
+              <ScrollchorItem to="#projects" className="nav-link">PROJECTS</ScrollchorItem>
           </NavItem>
           <NavItem eventKey={3} >
-          <ScrollchorItem to="#contact" className="nav-link">CONTACT</ScrollchorItem>
+              <ScrollchorItem to="#contact" className="nav-link">CONTACT</ScrollchorItem>
           </NavItem>
-          <NavItem eventKey={4} href="https://medium.com/@maribelduran">
-            WRITING
+          <NavItem eventKey={4} href="https://medium.com/@maribelduran" target="_blank" >
+            <span className="nav-link">WRITING</span>
           </NavItem>
-        </Nav>
+        </Scrollspy>
         </Collapse>
       </Navbar>
     )
