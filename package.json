@@ -19,6 +19,7 @@
     "gatsby-transformer-sharp": "^1.6.22",
     "react-bootstrap": "^0.32.1",
     "react-scrollchor": "^5.0.1",
+    "react-scrollspy": "^3.3.5",
     "unist-util-select": "^1.5.0"
   }
 }
