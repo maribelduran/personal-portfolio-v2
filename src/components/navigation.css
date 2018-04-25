@@ -35,12 +35,11 @@
 .navbar-brand:hover{
   color:#337ab7 !important;
 }
-/*
+
 .navbar-nav a:hover {
-  background-color: transparent;
+  
   text-decoration: underline !important;
 }
-*/
 
 .navbar-nav a:visited, .navbar-nav a:link {
   background-color: transparent !important;;
@@ -78,6 +77,19 @@ ul.blue-font.navbar-nav > li > a{
   color:#337ab7 !important;
 }
 
+/* override bootstrap */
+.nav>li>a{
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.nav-link{
+  padding: 10px 15px;
+}
+
+li.external-link > a{
+  padding: 10px 15px;
+}
 @media (min-width: 768px) {
   .navbar-right {
     margin-right: -30px;
