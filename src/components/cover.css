@@ -1,19 +1,8 @@
 .cover{
     width: 100%;
     height: 100vh;
-    /*background-image: url(../assets/images/main/AirBalloon.jpeg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    overflow: hidden;
-    /* Pick a solid background color that will be displayed while the background image is loading */
-  
-     background-color: white;
-     position:relative;
+    background-color: white;
+    position:relative;
   }
 
   .animated{
