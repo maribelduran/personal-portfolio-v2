@@ -47,7 +47,7 @@ class Projects extends Component {
             return(
               <a href={project.url} className={singleCardClass} target="_blank">
                 <div className="card-img">
-                  <img className="card-img_src center-block" src={`images/frontend/${project.img}`} alt="Screenshot of project" />
+                  <img className="card-img_src center-block" src={`static/projects/${project.img}`} alt="Screenshot of project" />
                 </div>
               <div className="blue-divider"></div>
               <div className="card-info">
