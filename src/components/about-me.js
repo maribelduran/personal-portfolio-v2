@@ -1,14 +1,23 @@
 import React from "react";
 import  "./about-me.css";
-//create a json object that contains list of hobbies and Mission, more info about me
+import Img from 'gatsby-image';
 
-const AboutMe = () =>
-<section id="about" className="section">
+const AboutMe = ({ profileImg, meditatingImg}) => {
+  console.log(meditatingImg);
+ 
+  return(
+      <section id="about" className="section">
   <h2 className="text-center">ABOUT ME</h2>
   <div className= "section-content">
     <div className="row">
       <div className="col-xs-12 col-sm-6 col-md-5 col-md-offset-1">
-        <img className="img-responsive center-block" src="../assets/images/aboutme/Maribel.JPG" alt="Large image of Maribel"/>
+        <Img
+          title="Header image"
+          alt="Large image of Maribel"
+          sizes={profileImg.sizes}
+          className="img-responsive center-block"
+        />
+        <img className="img-responsive center-block"  alt="Large image of Maribel"/>
       </div>      
       <div className="col-xs-12 col-sm-6 col-md-6">
         <h4>What I hope to do</h4>
@@ -19,13 +28,15 @@ const AboutMe = () =>
             I shared the skills and values gained on Medium.
         </p>
         <h4>When I'm not coding, you can find me </h4>
-        <p> 
-          <span><img src="images/icons/running.png" className="hobby-icon" /></span> Running | 
-          <span><img src="images/icons/hiking.png" className="hobby-icon"/></span> Hiking |  
-          <span><img src="images/icons/meditating.png" className="hobby-icon"/></span> Meditating | 
-          <span><img src="images/icons/reading.png" className="hobby-icon"/></span> <a href="https://www.goodreads.com/maribelduran" target="_blank">Reading</a> | 
-          <span><img src="images/icons/traveling.png" className="hobby-icon"/></span> <a href="images/MyTravelMap.png" target="_blank">Traveling</a> | 
-          <span><img src="images/icons/musicfestival.png" className="hobby-icon"/></span> Attending Music Festivals with BAE.
+        <p>
+            
+          <span><img src="static/icons/running.png" className="hobby-icon" /></span> Running | 
+          <span><img src="static/icons/hiking.png" className="hobby-icon"/></span> Hiking |  
+          
+          <span><img src="static/icons/meditating.png" className="hobby-icon"/></span> Meditating | 
+          <span><img src="static/icons/reading.png" className="hobby-icon"/></span> <a href="https://www.goodreads.com/maribelduran" target="_blank">Reading</a> | 
+          <span><img src="static/icons/traveling.png" className="hobby-icon"/></span> <a href="images/MyTravelMap.png" target="_blank">Traveling</a> | 
+          <span><img src="static/icons/musicfestival.png" className="hobby-icon"/></span> Attending Music Festivals with BAE.
           </p>
         </div>     
       </div>
@@ -68,5 +79,7 @@ const AboutMe = () =>
     </div>
   </div>
 </section>
+  )
+}
 
 export default AboutMe;
