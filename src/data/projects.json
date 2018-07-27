@@ -3,7 +3,7 @@
     "type": "front-end",
     "description": "EmpowerHerSF focuses on providing Human Trafficking awareness and funding to local SF women shelters. The website matches you with local shelters that need items that you have available to donate.",
     "img": "EmpowerHerSF_cover.png",
-    "url": "http://www.maribelduran.com/Hacking4Humanity2017/web/index.html",
+    "url": "https://maribelduran.github.io/Hacking4Humanity2017/web/index.html",
     "date-added": "2015-03-25"
   },
 	{
@@ -35,7 +35,7 @@
     "type": "front-end",
     "description": "A browser based version of the 1980s classNameic Simon Game. Built using Javascript, jQuery, HTML5, and CSS3.",
     "img": "SimonGame.png",
-    "url": "https://www.maribelduran.com/simon-game",
+    "url": "https://maribelduran.github.io/simon-game",
     "date-added": "2015-03-10"
   },
   {
@@ -123,7 +123,7 @@
     "type": "react",
     "description": "",
     "img": "CamperLeaderboard.png",
-    "url": "https://www.maribelduran.com/camper-leaderboard",
+    "url": "https://maribelduran.github.io/camper-leaderboard",
     "date-added": ""
   }
 ]
