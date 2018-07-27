@@ -3,91 +3,92 @@
   font-size: 16px;
   font-weight: 500;
   padding: 10px;
-  transition: all 1s ease; 
+  transition: all 1s ease;
   -webkit-transition: all 1s ease;
   -moz-transition: all 1s ease;
   -o-transition: all 1s ease;
   -ms-transition: all 1s ease;
   border-bottom: none;
 }
-  
-.navbar-border{
+
+.navbar-border {
   border-bottom: 2px solid #cccccc !important;
 }
-  
-.white-background{
+
+.white-background {
   background-color: white !important;
 }
 
-.white-font{
+.white-font {
   color: white !important;
 }
 
-/* Using bootstrap's navbar default blue color: #337ab7 */ 
-.blue-font{
-  color:#337ab7 !important;
+/* Using bootstrap's navbar default blue color: #337ab7 */
+.blue-font {
+  color: #337ab7 !important;
 }
-  
-.navbar-brand{
+
+.navbar-brand {
   font-size: 25px;
 }
 
-.navbar-brand:hover{
-  color:#337ab7 !important;
+.navbar-brand:hover {
+  color: #337ab7 !important;
 }
 
 .navbar-nav a:hover {
-  
   text-decoration: underline !important;
 }
 
-.navbar-nav a:visited, .navbar-nav a:link {
-  background-color: transparent !important;;
-}
-   
-.active{
-  text-decoration: underline !important;
-}
-
-.navbar-toggle{
-  border-style: none;
-}
-
-.navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
+.navbar-nav a:visited,
+.navbar-nav a:link {
   background-color: transparent !important;
 }
 
-.white-font.navbar-toggle > .icon-bar{
+.active {
+  text-decoration: underline !important;
+}
+
+.navbar-toggle {
+  border-style: none;
+}
+
+.navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+  background-color: transparent !important;
+}
+
+.white-font.navbar-toggle > .icon-bar {
   background-color: white !important;
 }
 
-.blue-font.navbar-toggle > .icon-bar{
+.blue-font.navbar-toggle > .icon-bar {
   background-color: #337ab7 !important;
 }
 
-.bootstrap-background-color{
+.bootstrap-background-color {
   background-color: #337ab7 !important;
 }
 
-ul.white-font.navbar-nav > li > a{
-    color: white !important;
+ul.white-font.navbar-nav > li > a {
+  color: white !important;
 }
 
-ul.blue-font.navbar-nav > li > a{
-  color:#337ab7 !important;
+ul.blue-font.navbar-nav > li > a {
+  color: #337ab7 !important;
 }
 
 /* override bootstrap */
-.nav>li>a{
+.nav > li > a {
   padding-left: 0 !important;
   padding-right: 0 !important;
 }
 
-.nav-link{
+.nav-link {
   padding: 10px 15px;
 }
 
-li.external-link > a{
+li.external-link > a {
   padding: 10px 15px;
 }
 @media (min-width: 768px) {

@@ -1,88 +1,96 @@
-.cover{
-    width: 100%;
-    height: 100vh;
-    background-color: white;
-    position:relative;
-  }
+.cover {
+  width: 100%;
+  height: 100vh;
+  background-color: white;
+  position: relative;
+}
 
-  .animated{
-    -webkit-animation-duration: 3s;  
-    animation-duration: 3s;
-    -webkit-animation-fill-mode: both;
-    animation-fill-mode: both;
-  }
+.animated {
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
 
-  @-webkit-keyframes fadeIn {
-    0% {opacity: 0;}
-    100% {opacity: 1;}
- }
- 
- @keyframes fadeIn {
-    0% {opacity: 0;}
-    100% {opacity: 1;}
- }
- 
- .fadeIn {
-    -webkit-animation-name: fadeIn;
-    animation-name: fadeIn;
- }
-  
-.center{
-    margin: 0;
-    color: white;
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
   }
-  
-  .name{
-    font-size: 80px;
-    font-weight:900;
+  100% {
+    opacity: 1;
   }
-  
-  .greetings{
-    font-weight: bold !important;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
   }
-  
-  .overlay{
-    background: #337ab7;
-    position: absolute;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    border-bottom-style: solid;
-    border-bottom-width: thin;
-    top: 0;
-    left: 0;
-    opacity: 0.3;
-    width: 100%;
-    height: 100%;
+  100% {
+    opacity: 1;
   }
-  
-  .arrow{
-    position: absolute;
-    bottom: 0;
-    display: block;
-    left: 50%;
-    margin-left: -50px;
-    width: 100px;
-    z-index: 1;
-    box-sizing: border-box;
-    transition: all 0.5s ease; 
-    animation-delay:  0.5s;   
-    -webkit-animation-delay: 0.5s;     
-  }
-  
-  .arrow .btn{
-    color: white;
-    font-size: 35px;
-    padding: 0;
-    width: 100%;
-  }
-  
-  .arrow:hover .btn{
-     transform: scale(1.20); 
-  }
+}
+
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+}
+
+.center {
+  margin: 0;
+  color: white;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+.name {
+  font-size: 80px;
+  font-weight: 900;
+}
+
+.greetings {
+  font-weight: bold !important;
+}
+
+.overlay {
+  background: #337ab7;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border-bottom-style: solid;
+  border-bottom-width: thin;
+  top: 0;
+  left: 0;
+  opacity: 0.3;
+  width: 100%;
+  height: 100%;
+}
+
+.arrow {
+  position: absolute;
+  bottom: 0;
+  display: block;
+  left: 50%;
+  margin-left: -50px;
+  width: 100px;
+  z-index: 1;
+  box-sizing: border-box;
+  transition: all 0.5s ease;
+  animation-delay: 0.5s;
+  -webkit-animation-delay: 0.5s;
+}
+
+.arrow .btn {
+  color: white;
+  font-size: 35px;
+  padding: 0;
+  width: 100%;
+}
+
+.arrow:hover .btn {
+  transform: scale(1.2);
+}
