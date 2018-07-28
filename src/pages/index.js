@@ -5,6 +5,8 @@ import AboutMe from "../components/about-me";
 import Projects from "../components/projects";
 import Contacts from "../components/contacts";
 import Footer from "../components/footer";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "font-awesome/css/font-awesome.min.css";
 import "./index.css";
 
 const HomePage = ({ data }) => {
