@@ -36,38 +36,12 @@
   color: #337ab7 !important;
 }
 
-.navbar-nav a:hover {
+.nav-link:hover {
   text-decoration: underline !important;
-}
-
-.navbar-nav a:visited,
-.navbar-nav a:link {
-  background-color: transparent !important;
 }
 
 .active {
   text-decoration: underline !important;
-}
-
-.navbar-toggle {
-  border-style: none;
-}
-
-.navbar-toggle:focus,
-.navbar-default .navbar-toggle:hover {
-  background-color: transparent !important;
-}
-
-.white-font.navbar-toggle > .icon-bar {
-  background-color: white !important;
-}
-
-.blue-font.navbar-toggle > .icon-bar {
-  background-color: #337ab7 !important;
-}
-
-.bootstrap-background-color {
-  background-color: #337ab7 !important;
 }
 
 ul.white-font.navbar-nav > li > a {
@@ -78,21 +52,19 @@ ul.blue-font.navbar-nav > li > a {
   color: #337ab7 !important;
 }
 
-/* override bootstrap */
-.nav > li > a {
-  padding-left: 0 !important;
-  padding-right: 0 !important;
-}
-
 .nav-link {
-  padding: 10px 15px;
+  padding: 0 0;
+  cursor: pointer;
+}
+button:focus {
+  outline: none !important;
 }
 
-li.external-link > a {
-  padding: 10px 15px;
-}
 @media (min-width: 768px) {
   .navbar-right {
     margin-right: -30px;
+  }
+  .nav-link {
+    padding: 10px 15px !important;
   }
 }
