@@ -1,15 +1,16 @@
-import React, {Component} from "react";
-import { Navbar, Nav, NavItem} from 'react-bootstrap';
-import ScrollchorItem from './scrollchor-item';
-import Scrollspy from 'react-scrollspy'
-import  "./navigation.css";
-
-const { 
-  Header, 
-  Brand,
-  Toggle, 
-  Collapse 
-  } = Navbar;
+import React, { Component } from "react";
+import {
+  Collapse,
+  Navbar,
+  NavbarToggler,
+  NavbarBrand,
+  NavLink,
+  Nav,
+  NavItem
+} from "reactstrap";
+import ScrollchorItem from "./scrollchor-item";
+import Scrollspy from "react-scrollspy";
+import "./navigation.css";
 
 class Navigation extends Component {
   constructor(props) {
@@ -17,69 +18,83 @@ class Navigation extends Component {
 
     this.state = {
       hasScrolledDown: false,
-      activeKey: "",
+      isOpen: false
     };
     this.handleScroll = this.handleScroll.bind(this);
-    this. addActiveClassName = this. addActiveClassName.bind(this);
-   }
+    this.toggleNavbar = this.toggleNavbar.bind(this);
+  }
 
-   addActiveClassName(event){
-    this.setState({activeKey: event});
-   }
+  handleScroll() {
+    const bodyScrollTop =
+      document.documentElement.scrollTop || document.body.scrollTop;
+    let scrolledDownEnough = bodyScrollTop > 75 ? true : false;
+    this.setState({ hasScrolledDown: scrolledDownEnough });
+  }
 
-   handleScroll() {
-      const bodyScrollTop = document.documentElement.scrollTop || document.body.scrollTop;
-      if (bodyScrollTop > 75){
-        this.setState({hasScrolledDown: true});
-      }
-      else{
-        this.setState({hasScrolledDown: false});
-      }
-   }
-  
+  toggleNavbar() {
+    this.setState({
+      isOpen: !this.state.isOpen
+    });
+  }
+
   componentDidMount() {
-    window.addEventListener('scroll', this.handleScroll);
+    window.addEventListener("scroll", this.handleScroll);
   }
 
   componentWillUnmount() {
-    window.removeEventListener('scroll', this.handleScroll);
+    window.removeEventListener("scroll", this.handleScroll);
   }
 
-  render(){
-    const whiteBackground = (this.state.hasScrolledDown) ? "white-background navbar-border" : "";
-    const fontColor = (this.state.hasScrolledDown) ? "blue-font" : "white-font";
-     
-    return(
-      <Navbar className={whiteBackground} fixedTop={true} fluid={true} collapseOnSelect={true}>
-      <Header >
-          <Brand className={fontColor}>
-            <a href="http://localhost:8000/">MARIBEL DURAN</a>
-          </Brand>
-          <Toggle className={fontColor}/>
-        </Header>
-        <Collapse >
-        <Scrollspy 
-          items={ ['about', 'projects', 'contact'] } 
-          currentClassName="active" 
-          componentTag={Nav}
-          className={`${fontColor} navbar-right`}
-         >
-         <NavItem eventKey={1} >
-            <ScrollchorItem to="#about" className="nav-link" >ABOUT ME</ScrollchorItem>
-         </NavItem>
-          <NavItem eventKey={2} >
-              <ScrollchorItem to="#projects" className="nav-link">PROJECTS</ScrollchorItem>
-          </NavItem>
-          <NavItem eventKey={3} >
-              <ScrollchorItem to="#contact" className="nav-link">CONTACT</ScrollchorItem>
-          </NavItem>
-          <NavItem eventKey={4} href="https://medium.com/@maribelduran" target="_blank" >
-            <span className="nav-link">WRITING</span>
-          </NavItem>
-        </Scrollspy>
+  render() {
+    const whiteBackground = this.state.hasScrolledDown
+      ? "white-background navbar-border"
+      : "";
+    const fontColor = this.state.hasScrolledDown ? "blue-font" : "white-font";
+
+    return (
+      <Navbar className={whiteBackground} fixed={"top"} expand="md">
+        <NavbarBrand href="http://localhost:8000/" className={fontColor}>
+          MARIBEL DURAN
+        </NavbarBrand>
+        <NavbarToggler onClick={this.toggleNavbar}>
+          <i className={`fa fa-navicon ${fontColor}`} />
+        </NavbarToggler>
+        <Collapse isOpen={this.state.isOpen} className={`${fontColor}`} navbar>
+          <Scrollspy
+            items={["about", "projects", "contact"]}
+            currentClassName="active"
+            componentTag={Nav}
+            className={`${fontColor} ml-auto navbar-nav`}
+            navbar
+          >
+            <NavItem>
+              <ScrollchorItem to="#about" className="nav-link">
+                ABOUT ME
+              </ScrollchorItem>
+            </NavItem>
+            <NavItem>
+              <ScrollchorItem to="#projects" className="nav-link">
+                PROJECTS
+              </ScrollchorItem>
+            </NavItem>
+            <NavItem>
+              <ScrollchorItem to="#contact" className="nav-link">
+                CONTACT
+              </ScrollchorItem>
+            </NavItem>
+            <NavItem>
+              <NavLink
+                href="https://medium.com/@maribelduran"
+                target="_blank"
+                className="external-link"
+              >
+                WRITING
+              </NavLink>
+            </NavItem>
+          </Scrollspy>
         </Collapse>
       </Navbar>
-    )
+    );
   }
 }
 
