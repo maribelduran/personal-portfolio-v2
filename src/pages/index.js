@@ -16,6 +16,7 @@ const HomePage = ({ data }) => {
     <div>
       <Cover coverImg={data.coverImg} />
       <div className="container-fluid main">
+        <Navigation />
         <AboutMe profileImg={data.profileImg} />
         <Projects projectImgs={imgData} />
         <Contacts />
