@@ -22,6 +22,7 @@ class Navigation extends Component {
     };
     this.handleScroll = this.handleScroll.bind(this);
     this.toggleNavbar = this.toggleNavbar.bind(this);
+    this.handleCloseCollapse = this.handleCloseCollapse.bind(this);
   }
 
   handleScroll() {
@@ -35,6 +36,14 @@ class Navigation extends Component {
     this.setState({
       isOpen: !this.state.isOpen
     });
+  }
+
+  handleCloseCollapse() {
+    if (this.state.isOpen) {
+      this.setState({
+        isOpen: !this.state.isOpen
+      });
+    }
   }
 
   componentDidMount() {
@@ -63,26 +72,26 @@ class Navigation extends Component {
           <Scrollspy
             items={["about", "projects", "contact"]}
             currentClassName="active"
-            componentTag={Nav}
+            offset={-50}
             className={`${fontColor} ml-auto navbar-nav`}
             navbar
           >
-            <NavItem>
+            <NavItem onClick={this.handleCloseCollapse}>
               <ScrollchorItem to="#about" className="nav-link">
                 ABOUT ME
               </ScrollchorItem>
             </NavItem>
-            <NavItem>
+            <NavItem onClick={this.handleCloseCollapse}>
               <ScrollchorItem to="#projects" className="nav-link">
                 PROJECTS
               </ScrollchorItem>
             </NavItem>
-            <NavItem>
+            <NavItem onClick={this.handleCloseCollapse}>
               <ScrollchorItem to="#contact" className="nav-link">
                 CONTACT
               </ScrollchorItem>
             </NavItem>
-            <NavItem>
+            <NavItem onClick={this.handleCloseCollapse}>
               <NavLink
                 href="https://medium.com/@maribelduran"
                 target="_blank"
