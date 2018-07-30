@@ -8,7 +8,7 @@ const AboutMe = ({ profileImg }) => {
       <h2 className="text-center">ABOUT ME</h2>
       <div className="section-content">
         <div className="row">
-          <div className="col-xs-12 col-sm-6 col-md-5 col-md-offset-1">
+          <div className="col-12 col-sm-12 col-md-5 offset-md-1 offset-sm-0">
             <Img
               title="Profile image"
               alt="Large image of Maribel"
@@ -16,7 +16,7 @@ const AboutMe = ({ profileImg }) => {
               className="img-responsive center-block"
             />
           </div>
-          <div className="col-xs-12 col-sm-6 col-md-6">
+          <div className="col-12 col-sm-12 col-md-6">
             <h4>What I hope to do</h4>
             <p>
               My mission as a developer is to contribute to applications that
@@ -72,9 +72,16 @@ const AboutMe = ({ profileImg }) => {
               </a>{" "}
               |
               <span>
-                <img src="static/icons/traveling.png" className="hobby-icon" />
+                <img
+                  src="static/icons/traveling.png"
+                  className="hobby-icon"
+                  alt="Travel map"
+                />
               </span>{" "}
-              <a href="images/MyTravelMap.png" target="_blank">
+              <a
+                href="https://res.cloudinary.com/maribelduran/image/upload/v1532964514/MyTravelMap.png"
+                target="_blank"
+              >
                 Traveling
               </a>{" "}
               |
@@ -89,7 +96,7 @@ const AboutMe = ({ profileImg }) => {
           </div>
         </div>
         <div className="row">
-          <div className="col-md-4 col-md-offset-1 col-sm-4 col-xs-12 ">
+          <div className=" col-12 col-sm-4 col-md-4 offset-md-1 offset-sm-0  ">
             <div className="box">
               <h5>Toolbox</h5>
               <p>
@@ -107,7 +114,7 @@ const AboutMe = ({ profileImg }) => {
               </p>
             </div>
           </div>
-          <div className="col-md-3 col-sm-4  col-xs-6 ">
+          <div className="col-md-3 col-sm-4  col-6 ">
             <div className="box">
               <h5>Learning</h5>
               <p>
@@ -116,7 +123,7 @@ const AboutMe = ({ profileImg }) => {
               </p>
             </div>
           </div>
-          <div className="col-md-4  col-sm-4 col-xs-6 ">
+          <div className="col-md-4  col-sm-4 col-6 ">
             <div className="box">
               <h5>Hacking on</h5>
               <p>
