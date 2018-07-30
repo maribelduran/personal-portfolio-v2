@@ -1,12 +1,12 @@
-.projects{
-  background-color:  #f6f6f6;
+.projects {
+  background-color: #f6f6f6;
 }
 
-.projects > h2{
+.projects > h2 {
   margin-bottom: 0;
 }
 
-.subheader{
+.subheader {
   margin: auto;
   margin-bottom: 50px;
   margin-top: 50px;
@@ -14,16 +14,17 @@
   padding-left: 40%;
 }
 
-.projects a{
-    color: black;
-    text-decoration: none;
+.projects a,
+.projects a:hover {
+  color: black;
+  text-decoration: none;
 }
 
-.projects h4{
+.projects h4 {
   color: #337ab7;
 }
 
-.project-list{
+.project-list {
   padding-top: 10px;
   list-style: none;
   display: flex !important;
@@ -34,31 +35,30 @@
   justify-content: space-around;
 }
 
-.single-card{
+.single-card {
   width: 320px;
   height: 420px;
   display: block;
   margin-bottom: 40px;
   text-align: left;
   border-style: solid;
-  border-color: rgba(51, 122, 183, 0.10);
+  border-color: rgba(51, 122, 183, 0.1);
   border-width: thin;
   border-radius: 5px;
-  box-shadow: 0 12px 12px 0 #D3D3D3;
+  box-shadow: 0 12px 12px 0 #d3d3d3;
   box-sizing: border-box;
   background-color: white;
 }
 
-.card-img{
+.card-img {
   height: 50%;
-  overflow: hidden;  
+  overflow: hidden;
 }
 
-.card-img_src{
+.gatsby-image-outer-wrapper {
   width: 100%;
   height: 100%;
-  border-radius: 5px 5px 0 0; 
-
+  border-radius: 5px 5px 0 0;
   transition: all 1s ease;
   -webkit-transition: all 1s ease;
   -moz-transition: all 1s ease;
@@ -66,21 +66,29 @@
   -ms-transition: all 1s ease;
 }
 
-.single-card:hover .card-img_src{
-    transform: scale(1.18);  
+.card-img_src {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px 5px 0 0;
+  transition: all 1s ease;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
 }
 
-.zoom-in{
-  transform: scale(1.18); 
+.single-card:hover .card-img_src {
+  transform: scale(1.18);
+  text-decoration: none !important;
 }
 
-.card-info{
+.card-info {
   padding: 15px;
   width: 100%;
   height: 50%;
 }
 
-.card-info > p{
+.card-info > p {
   font-size: 14px;
   font-weight: 300;
   line-height: normal;
@@ -89,22 +97,17 @@
   position: relative;
 }
 
-.single-card:hover .card-name{
-   color: #337ab7;
-   text-decoration: none;
-}
-
-.blue-divider{
+.blue-divider {
   width: 100%;
   height: 6px;
   background-color: #337ab7;
 }
 
-.hide{
+.hide {
   display: none;
 }
 
 /******** BOOTSRAP FORM CONTROL  *******/
-.form-control{
+.form-control {
   font-size: 16px !important;
 }
