@@ -60,4 +60,4 @@ typings/
 .cache/
 yarn-error.log
 
-.vsode
+.vscode
