@@ -25,11 +25,7 @@ const Cover = ({ coverImg }) => (
       <p className="greetings">Let's change the world together!</p>
     </div>
     <div className="arrow animated bounceInDown">
-      <Scrollchor
-        to="#about"
-        className="btn btn-md"
-        animate={{ duration: 500 }}
-      >
+      <Scrollchor to="#about" className="btn" animate={{ duration: 500 }}>
         <i className="fa fa-chevron-down" />
       </Scrollchor>
     </div>
