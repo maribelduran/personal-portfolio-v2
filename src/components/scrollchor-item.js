@@ -14,7 +14,11 @@ export default class ScrollchorItem extends Component {
     const { to, children, className } = this.props;
     return (
       <span onClick={this._handleClick} className={className}>
-        <Scrollchor to={to} ref={ref => (this._back = ref)} />
+        <Scrollchor
+          to={to}
+          ref={ref => (this._back = ref)}
+          animate={{ duration: 500 }}
+        />
         {children}
       </span>
     );
