@@ -14,6 +14,7 @@ import "./index.css";
 const HomePage = ({ data }) => {
   const siteTitle = data.site.siteMetadata.title;
   const { edges: imgData } = data.ProjectImgs;
+  const { edges: iconImgData } = data.iconImgs;
   return (
     <div>
       <Helmet
@@ -23,7 +24,7 @@ const HomePage = ({ data }) => {
       <Cover coverImg={data.coverImg} />
       <div className="container-fluid main">
         <Navigation />
-        <AboutMe profileImg={data.profileImg} />
+        <AboutMe profileImg={data.profileImg} iconImgs={iconImgData} />
         <Projects projectImgs={imgData} />
         <Contacts />
         <Footer />
