@@ -115,3 +115,7 @@
 .arrow:hover .btn {
   transform: scale(1.2);
 }
+
+.btn:focus {
+  box-shadow: none !important;
+}
