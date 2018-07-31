@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: "Maribel Duran || Home",
     description: "Maribel Duran Personal Portfolio",
-    siteUrl: "https://www.maribelduran.com/",
+    siteUrl: "https://www.maribelduran.com",
     author: "maribelduran",
     twitter: "maribeldotduran"
   },
@@ -21,9 +21,17 @@ module.exports = {
         name: `images`
       }
     },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-102315844-1",
+        head: true
+      }
+    },
     `gatsby-plugin-sitemap`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    `gatsby-plugin-react-helmet`
+    `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-google-analytics`
   ]
 };
