@@ -68,7 +68,7 @@
 }
 
 .name {
-  font-size: 80px;
+  font-size: 70px;
   font-weight: 900;
 }
 
@@ -118,4 +118,15 @@
 
 .btn:focus {
   box-shadow: none !important;
+}
+
+@media only screen and (min-width: 550px) {
+  .cover .name {
+    font-size: 80px;
+  }
+
+  .projects .subheader {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
 }
