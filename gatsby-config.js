@@ -31,7 +31,6 @@ module.exports = {
     `gatsby-plugin-sitemap`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    `gatsby-plugin-react-helmet`,
-    `gatsby-plugin-google-analytics`
+    `gatsby-plugin-react-helmet`
   ]
 };
