@@ -4,7 +4,7 @@ import Img from "gatsby-image";
 import "./cover.css";
 
 const Cover = ({ coverImg }) => (
-  <div id="#top" className="cover animated ">
+  <div id="#top" className="cover animated">
     <Img
       title="Cover image"
       alt="Air Balloon in Nature"
@@ -28,9 +28,9 @@ const Cover = ({ coverImg }) => (
       <Scrollchor
         to="#about"
         className="btn btn-md"
-        animate={{ duration: 1000 }}
+        animate={{ duration: 500 }}
       >
-        <span className="glyphicon glyphicon-menu-down" />
+        <i className="fa fa-chevron-down" />
       </Scrollchor>
     </div>
   </div>
