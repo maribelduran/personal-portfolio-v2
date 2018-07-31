@@ -29,7 +29,9 @@ class Navigation extends Component {
     const bodyScrollTop =
       document.documentElement.scrollTop || document.body.scrollTop;
     let scrolledDownEnough = bodyScrollTop > 75 ? true : false;
-    this.setState({ hasScrolledDown: scrolledDownEnough });
+    this.setState({
+      hasScrolledDown: scrolledDownEnough
+    });
   }
 
   toggleNavbar() {
