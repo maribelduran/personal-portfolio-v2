@@ -61,8 +61,8 @@ button:focus {
 }
 
 @media (min-width: 768px) {
-  .navbar-right {
-    margin-right: -30px;
+  .navbar {
+    margin-right: -20px;
   }
   .nav-link {
     padding: 10px 15px !important;

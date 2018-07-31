@@ -72,7 +72,6 @@ class Navigation extends Component {
           <Scrollspy
             items={["about", "projects", "contact"]}
             currentClassName="active"
-            offset={-50}
             className={`${fontColor} ml-auto navbar-nav`}
             navbar
           >
