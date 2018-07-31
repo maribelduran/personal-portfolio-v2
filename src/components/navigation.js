@@ -64,7 +64,7 @@ class Navigation extends Component {
 
     return (
       <Navbar className={whiteBackground} fixed={"top"} expand="md">
-        <NavbarBrand href="http://localhost:8000/" className={fontColor}>
+        <NavbarBrand href="https://www.maribelduran.com/" className={fontColor}>
           MARIBEL DURAN
         </NavbarBrand>
         <NavbarToggler onClick={this.toggleNavbar}>
