@@ -21,7 +21,6 @@ class Projects extends Component {
 
   render() {
     const projectImgs = this.props.projectImgs;
-    console.log(projectImgs);
     const { selectedType } = this.state;
     return (
       <section id="projects" className="section projects">
@@ -48,13 +47,11 @@ class Projects extends Component {
                 hide: !isSelectedType
               });
               const image = projectImgs.find(function(n) {
-                // console.log(n.node);
                 return n.node.relativePath === `projects/${project.img}`;
               });
               const imageSizes = image.node.childImageSharp.sizes;
 
               return (
-                //get the element from projectImgs that matches the `${projects/}project.img`
                 <a
                   href={project.url}
                   key={project.url}
