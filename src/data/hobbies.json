@@ -1,0 +1,33 @@
+[
+  {
+    "name": "Running",
+    "img": "running.png",
+    "external_url": null
+  },
+  {
+    "name": "Hiking",
+    "img": "hiking.png",
+    "external_url": null
+  },
+  {
+    "name": "Meditating",
+    "img": "meditating.png",
+    "external_url": null
+  },
+  {
+    "name": "Reading",
+    "img": "reading.png",
+    "external_url": "https://www.goodreads.com/maribelduran"
+  },
+  {
+    "name": "Traveling",
+    "img": "traveling.png",
+    "external_url":
+      "https://res.cloudinary.com/maribelduran/image/upload/v1532964514/MyTravelMap.png"
+  },
+  {
+    "name": "Attending Music Festivals with BAE",
+    "img": "musicfestival.png",
+    "external_url": null
+  }
+]
