@@ -13,7 +13,7 @@ import "./index.css";
 
 const HomePage = ({ data }) => {
   const siteTitle = data.site.siteMetadata.title;
-  const { edges: imgData } = data.ProjectImgs;
+  const { edges: projectImsData } = data.ProjectImgs;
   const { edges: iconImgData } = data.iconImgs;
   return (
     <div>
@@ -25,7 +25,7 @@ const HomePage = ({ data }) => {
       <div className="container-fluid main">
         <Navigation />
         <AboutMe profileImg={data.profileImg} iconImgs={iconImgData} />
-        <Projects projectImgs={imgData} />
+        <Projects projectImgs={projectImsData} />
         <Contacts />
         <Footer />
       </div>
