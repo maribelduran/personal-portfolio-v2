@@ -42,15 +42,14 @@ class Projects extends Component {
           </div>
           <div className="project-list">
             {projectList.map(project => {
-              const isSelectedType = selectedType == project.type;
+              const isSelectedType = selectedType === project.type;
               const singleCardClass = classNames("single-card", {
                 hide: !isSelectedType
               });
-              const image = projectImgs.find(function(n) {
+              const image = projectImgs.find(n => {
                 return n.node.relativePath === `projects/${project.img}`;
               });
               const imageSizes = image.node.childImageSharp.sizes;
-
               return (
                 <a
                   href={project.url}
