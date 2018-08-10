@@ -1,8 +1,9 @@
 import React from "react";
 import "./about-me.css";
 import Img from "gatsby-image";
+import Hobbies from "./hobbies";
 
-const AboutMe = ({ profileImg }) => {
+const AboutMe = ({ profileImg, iconImgs }) => {
   return (
     <section id="about" className="section">
       <h2 className="text-center">ABOUT ME</h2>
@@ -50,49 +51,7 @@ const AboutMe = ({ profileImg }) => {
               DaysOfCodeChallenge. I shared the skills and values gained on
               Medium.
             </p>
-            <h4>When I'm not coding, you can find me </h4>
-            <p>
-              <span>
-                <img src="static/icons/running.png" className="hobby-icon" />
-              </span>{" "}
-              Running |
-              <span>
-                <img src="static/icons/hiking.png" className="hobby-icon" />
-              </span>{" "}
-              Hiking |
-              <span>
-                <img src="static/icons/meditating.png" className="hobby-icon" />
-              </span>{" "}
-              Meditating |
-              <span>
-                <img src="static/icons/reading.png" className="hobby-icon" />
-              </span>{" "}
-              <a href="https://www.goodreads.com/maribelduran" target="_blank">
-                Reading
-              </a>{" "}
-              |
-              <span>
-                <img
-                  src="static/icons/traveling.png"
-                  className="hobby-icon"
-                  alt="Travel map"
-                />
-              </span>{" "}
-              <a
-                href="https://res.cloudinary.com/maribelduran/image/upload/v1532964514/MyTravelMap.png"
-                target="_blank"
-              >
-                Traveling
-              </a>{" "}
-              |
-              <span>
-                <img
-                  src="static/icons/musicfestival.png"
-                  className="hobby-icon"
-                />
-              </span>{" "}
-              Attending Music Festivals with BAE.
-            </p>
+            <Hobbies ics={iconImgs} />
           </div>
         </div>
         <div className="row">
