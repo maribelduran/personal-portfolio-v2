@@ -11,7 +11,7 @@ const Hobbies = () => {
         {hobbyList.map((hobby, i) => {
           let isExternal = hobby.external_url;
           return (
-            <span className="hobby-wrapper">
+            <span className="hobby-wrapper" key={hobby.name}>
               <span className="hobby-icon">
                 <img src={`static/icons/${hobby.img}`} className="hobby-icon" />
               </span>
