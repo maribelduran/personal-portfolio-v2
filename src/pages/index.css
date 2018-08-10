@@ -67,14 +67,3 @@ h5 {
 a {
   color: #337ab7;
 }
-
-@media only screen and (max-width: 550px) {
-  #cover-name {
-    font-size: 70px;
-  }
-
-  .projects .subheader {
-    padding-left: 30px;
-    padding-right: 30px;
-  }
-}
