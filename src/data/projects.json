@@ -81,15 +81,6 @@
     "date-added": "2015-02-20"
   },
   {
-    "name": "Tribute Page",
-    "type": "front-end",
-    "description":
-      "A simple tribute page featuring Steve Jobs's timeline and some of his famous quotes.",
-    "img": "TributePage.png",
-    "url": "https://maribelduran.github.io/tribute-to-steve-jobs",
-    "date-added": "2015-02-10"
-  },
-  {
     "name": "File Metadata Microservice",
     "type": "back-end",
     "description":
