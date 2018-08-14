@@ -15,7 +15,10 @@ const Contacts = () => {
               className="btn-social-icon"
               rel="noopener noreferrer"
             >
-              <span className={`fa fa-${contact.icon}`} />
+              <span
+                className={`fa fa-${contact.icon}`}
+                alt={`External link to my ${contact.name} account`}
+              />
             </a>
           </div>
         ))}
