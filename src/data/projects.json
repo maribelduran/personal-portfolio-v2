@@ -2,8 +2,7 @@
   {
     "name": "EmpowerHer:SF",
     "type": "front-end",
-    "description":
-      "EmpowerHerSF focuses on providing Human Trafficking awareness and funding to local SF women shelters. The website matches you with local shelters that need items that you have available to donate.",
+    "description": "EmpowerHerSF focuses on providing Human Trafficking awareness and funding to local SF women shelters. The website matches you with local shelters that need items that you have available to donate.",
     "img": "EmpowerHerSF_cover.png",
     "url": "https://maribelduran.github.io/Hacking4Humanity2017/web/index.html",
     "date-added": "2015-03-25"
@@ -11,8 +10,7 @@
   {
     "name": "Tic Tac Toe",
     "type": "front-end",
-    "description":
-      "A user can play a game of Tic Tac Toe with the computer and choose whether they want to play as X or O. The game will reset as soon as it's over. Built using: Javascript, jQuery, HTML, CSS3, and Bootstrap.",
+    "description": "A user can play a game of Tic Tac Toe with the computer and choose whether they want to play as X or O. The game will reset as soon as it's over. Built using: Javascript, jQuery, HTML, CSS3, and Bootstrap.",
     "img": "TicTacToe.png",
     "url": "https://maribelduran.github.io/tic-tac-toe",
     "date-added": "2015-03-24"
@@ -20,8 +18,7 @@
   {
     "name": "Pomodoro Timer",
     "type": "front-end",
-    "description":
-      "A countdown clock that switches between a Session Timer and Break Timer. The length of the timers are customizable and can be reset. Built using: Javascript, Jquery, HTML5, CSS3, and Bootstrap.",
+    "description": "A countdown clock that switches between a Session Timer and Break Timer. The length of the timers are customizable and can be reset. Built using: Javascript, Jquery, HTML5, CSS3, and Bootstrap.",
     "img": "PomodoroTimer.png",
     "url": "https://maribelduran.github.io/pomodoro-timer",
     "date-added": "2015-03-20"
@@ -29,8 +26,7 @@
   {
     "name": "Javascript Calculator",
     "type": "front-end",
-    "description":
-      "A fully functional calculator that can chain mathematical operations together. Built using Javascript, jQuery, HTML5, and CSS3.",
+    "description": "A fully functional calculator that can chain mathematical operations together. Built using Javascript, jQuery, HTML5, and CSS3.",
     "img": "JavascriptCalculator.png",
     "url": "https://maribelduran.github.io/javascript-calculator",
     "date-added": "2015-03-19"
@@ -38,8 +34,7 @@
   {
     "name": "Simon Game",
     "type": "front-end",
-    "description":
-      "A browser based version of the 1980s classNameic Simon Game. Built using Javascript, jQuery, HTML5, and CSS3.",
+    "description": "A browser based version of the 1980s classNameic Simon Game. Built using Javascript, jQuery, HTML5, and CSS3.",
     "img": "SimonGame.png",
     "url": "https://maribelduran.github.io/simon-game",
     "date-added": "2015-03-10"
@@ -47,8 +42,7 @@
   {
     "name": "Twitch Streamers",
     "type": "front-end",
-    "description":
-      "Shows whether a Twitch streamer is online, offline, or no longer active. Uses the Twitch.tv JSON API to get twitch streamers information. Built using Vanilla JS, HTML, and CSS3",
+    "description": "Shows whether a Twitch streamer is online, offline, or no longer active. Uses the Twitch.tv JSON API to get twitch streamers information. Built using Vanilla JS, HTML, and CSS3",
     "img": "Twitch_Streamers.png",
     "url": "https://maribelduran.github.io/twitch_streamers",
     "date-added": "2015-03-05"
@@ -56,8 +50,7 @@
   {
     "name": "Wikipedia Viewer",
     "type": "front-end",
-    "description":
-      "Allows a user to search and view Wikipedia articles.Uses Wikpedia's API to retrieve the articles. Built using Vanilla JS, HTML, and CSS3.",
+    "description": "Allows a user to search and view Wikipedia articles.Uses Wikpedia's API to retrieve the articles. Built using Vanilla JS, HTML, and CSS3.",
     "img": "WikipediaViewer.png",
     "url": "https://maribelduran.github.io/wikipedia-viewer",
     "date-added": "2015-03-04"
@@ -65,8 +58,7 @@
   {
     "name": "Local Weather App",
     "type": "front-end",
-    "description":
-      "Shows the weather of the user's current location in both Fahrenheit and Celcius. Uses HTML5 Geolocation API to get the user's location and Dark Sky API for the weather conditions. Built using Javascript, jQuery, HTML5, CSS, and Bootstrap.",
+    "description": "Shows the weather of the user's current location in both Fahrenheit and Celcius. Uses HTML5 Geolocation API to get the user's location and Dark Sky API for the weather conditions. Built using Javascript, jQuery, HTML5, CSS, and Bootstrap.",
     "img": "SFWeatherSmall.png",
     "url": "https://maribelduran.github.io/local-weather",
     "date-added": "2015-03-01"
@@ -74,8 +66,7 @@
   {
     "name": "Inspirational Quotes Generator",
     "type": "front-end",
-    "description":
-      "Provides random inspirational quotes using Forismatic API. The user can share the quotes on Facebook and Twitter. Built using Javascript, JQuery, HTML, CSS3, and Bootstrap.",
+    "description": "Provides random inspirational quotes using Forismatic API. The user can share the quotes on Facebook and Twitter. Built using Javascript, JQuery, HTML, CSS3, and Bootstrap.",
     "img": "RandomQuoteGenerator.png",
     "url": "https://maribelduran.github.io/inspirational-quote-generator",
     "date-added": "2015-02-20"
@@ -83,8 +74,7 @@
   {
     "name": "File Metadata Microservice",
     "type": "back-end",
-    "description":
-      "This service accepts a single file upload and will return the file size in bytes in the JSON response. Built using Node.js, Express, and Multer.",
+    "description": "This service accepts a single file upload and will return the file size in bytes in the JSON response. Built using Node.js, Express, and Multer.",
     "img": "FileMetadata.png",
     "url": "https://file-metadata-micro-srvc.herokuapp.com/",
     "date-added": "2018-09-01"
@@ -92,8 +82,7 @@
   {
     "name": "URL Shortener Microservice",
     "type": "back-end",
-    "description":
-      "This service accepts a URL and will return both the original URL and shortened URL in a JSON response. Built using MongoDB, Node.js and Express.",
+    "description": "This service accepts a URL and will return both the original URL and shortened URL in a JSON response. Built using MongoDB, Node.js and Express.",
     "img": "urlShortener.png",
     "url": "https://url-shortener-microsrvc.herokuapp.com/",
     "date-added": "2017-09-02"
@@ -101,8 +90,7 @@
   {
     "name": "Request Header Parser Microservice",
     "type": "back-end",
-    "description":
-      "This service returns your IP address, language, operating system, and browser specs. Built using Node.js and Express.",
+    "description": "This service returns your IP address, language, operating system, and browser specs. Built using Node.js and Express.",
     "img": "RequestHeaderParser.png",
     "url": "https://req-header-parser-srvc.herokuapp.com/",
     "date-added": "2017-09-02"
@@ -110,8 +98,7 @@
   {
     "name": "Timestamp Microservice",
     "type": "back-end",
-    "description":
-      "This service accepts a string and returns both the Unix timestamp and the natural language form of that date as a JSON object. Built using Node.js and Express.",
+    "description": "This service accepts a string and returns both the Unix timestamp and the natural language form of that date as a JSON object. Built using Node.js and Express.",
     "img": "Timestamp.png",
     "url": "https://timestamp-micro-srvc.herokuapp.com/",
     "date-added": "2017-09-02"
@@ -119,17 +106,23 @@
   {
     "name": "Image Search Abstraction Microservice",
     "type": "back-end",
-    "description":
-      "This service accepts a search string and will return a set of image results from a Google custom search engine. Built using, MongoDB, Node.js, and Express.",
+    "description": "This service accepts a search string and will return a set of image results from a Google custom search engine. Built using, MongoDB, Node.js, and Express.",
     "img": "ImageSearch.png",
     "url": "https://img-search-layer-microsrvc.herokuapp.com",
     "date-added": ""
   },
   {
+    "name": "Ask Me",
+    "type": "react",
+    "description": "Students are welcomed to ask me questions about programming, my career, or hobbies. They can submit their questions through the contact form or embedded Padlet board.",
+    "img": "AskMe.png",
+    "url": "https://maribelduran.github.io/ask-me/",
+    "date-added": ""
+  },
+  {
     "name": "FCC Camper Leaderboard",
     "type": "react",
-    "description":
-      "Shows a list of the FreeCodeCamp campers who've earned the most brownie points in the past 30 days and all timers. Uses the FCC API to get FCC top campers information.",
+    "description": "Shows a list of the FreeCodeCamp campers who've earned the most brownie points in the past 30 days and all timers. Uses the FCC API to get FCC top campers information.",
     "img": "CamperLeaderboard.png",
     "url": "https://maribelduran.github.io/camper-leaderboard",
     "date-added": ""
