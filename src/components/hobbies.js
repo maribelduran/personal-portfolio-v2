@@ -3,18 +3,21 @@ import hobbyList from "../data/hobbies.json";
 import Img from "gatsby-image";
 import "./hobbies.css";
 
-const Hobbies = () => {
+const Hobbies = ({ icons }) => {
   return (
     <div>
       <h4>When I'm not coding, you can find me </h4>
       <p>
         {hobbyList.map((hobby, i) => {
           let isExternal = hobby.external_url;
+          const icon = icons.find(n => {
+            return n.node.relativePath === `icons/${hobby.img}`;
+          });
           return (
             <span className="hobby-wrapper" key={hobby.name}>
               <span className="hobby-icon">
                 <img
-                  src={`static/icons/${hobby.img}`}
+                  src={icon.node.childImageSharp.sizes.src}
                   alt={`${hobby.name} Icon`}
                   className="hobby-icon"
                 />

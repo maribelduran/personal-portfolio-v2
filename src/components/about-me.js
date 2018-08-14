@@ -3,7 +3,7 @@ import "./about-me.css";
 import Img from "gatsby-image";
 import Hobbies from "./hobbies";
 
-const AboutMe = ({ profileImg, iconImgs }) => {
+const AboutMe = ({ profileImg, hobbyImgs }) => {
   return (
     <section id="about" className="section">
       <h2 className="text-center">ABOUT ME</h2>
@@ -57,7 +57,7 @@ const AboutMe = ({ profileImg, iconImgs }) => {
               DaysOfCodeChallenge. I shared the skills and values gained on
               Medium.
             </p>
-            <Hobbies ics={iconImgs} />
+            <Hobbies icons={hobbyImgs} />
           </div>
         </div>
         <div className="row">
