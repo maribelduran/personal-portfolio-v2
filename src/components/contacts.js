@@ -12,6 +12,7 @@ const Contacts = () => {
             <a
               href={contact.url}
               target="_blank"
+              title={`External link to my ${contact.name} account`}
               className="btn-social-icon"
               rel="noopener noreferrer"
             >
