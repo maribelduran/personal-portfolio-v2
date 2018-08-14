@@ -13,7 +13,11 @@ const Hobbies = () => {
           return (
             <span className="hobby-wrapper" key={hobby.name}>
               <span className="hobby-icon">
-                <img src={`static/icons/${hobby.img}`} className="hobby-icon" />
+                <img
+                  src={`static/icons/${hobby.img}`}
+                  alt={`${hobby.name} Icon`}
+                  className="hobby-icon"
+                />
               </span>
               {isExternal ? (
                 <a
