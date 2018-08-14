@@ -13,7 +13,8 @@ import "./index.css";
 
 const HomePage = ({ data }) => {
   const siteTitle = data.site.siteMetadata.title;
-  const { edges: projectImsData } = data.ProjectImgs;
+  const { edges: projectImgData } = data.ProjectImgs;
+  const { edges: hobbyImgData } = data.HobbyImgs;
   return (
     <div>
       <Helmet
@@ -23,8 +24,8 @@ const HomePage = ({ data }) => {
       <Cover coverImg={data.coverImg} />
       <div className="container-fluid main">
         <Navigation />
-        <AboutMe profileImg={data.profileImg} />
-        <Projects projectImgs={projectImsData} />
+        <AboutMe profileImg={data.profileImg} hobbyImgs={hobbyImgData} />
+        <Projects projectImgs={projectImgData} />
         <Contacts />
         <Footer />
       </div>
@@ -64,6 +65,22 @@ export const query = graphql`
           name
           childImageSharp {
             sizes(maxWidth: 320) {
+              ...GatsbyImageSharpSizes
+            }
+          }
+        }
+      }
+    }
+    HobbyImgs: allFile(
+      sort: { order: ASC, fields: [absolutePath] }
+      filter: { relativePath: { regex: "/icons/.*.png/" } }
+    ) {
+      edges {
+        node {
+          relativePath
+          name
+          childImageSharp {
+            sizes(maxWidth: 40) {
               ...GatsbyImageSharpSizes
             }
           }
