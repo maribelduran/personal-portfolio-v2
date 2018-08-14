@@ -16,7 +16,11 @@ const Hobbies = () => {
                 <img src={`static/icons/${hobby.img}`} className="hobby-icon" />
               </span>
               {isExternal ? (
-                <a href={hobby.external_url} target="_blank">
+                <a
+                  href={hobby.external_url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   {hobby.name}
                 </a>
               ) : (

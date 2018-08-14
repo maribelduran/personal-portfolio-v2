@@ -29,7 +29,11 @@ const AboutMe = ({ profileImg, iconImgs }) => {
             <p>
               {" "}
               On my free time, I am building web applications through the{" "}
-              <a href="https://www.freecodecamp.com/" target="_blank">
+              <a
+                href="https://www.freecodecamp.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 FreeCodeCamp
               </a>{" "}
               curriculum, an open source coding community. On top of
@@ -44,10 +48,12 @@ const AboutMe = ({ profileImg, iconImgs }) => {
               <a
                 href="https://medium.freecodecamp.org/hacktoberfest-my-gateway-to-open-source-f44c8778b022"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 {" "}
                 contributing to open source
-              </a>, attended my first hackathon, and completed the 100
+              </a>
+              , attended my first hackathon, and completed the 100
               DaysOfCodeChallenge. I shared the skills and values gained on
               Medium.
             </p>

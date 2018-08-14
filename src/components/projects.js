@@ -56,6 +56,7 @@ class Projects extends Component {
                   key={project.url}
                   className={singleCardClass}
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <div className="card-img">
                     <Img

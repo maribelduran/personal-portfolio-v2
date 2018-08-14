@@ -97,6 +97,7 @@ class Navigation extends Component {
                 href="https://medium.com/@maribelduran"
                 target="_blank"
                 className="external-link"
+                rel="noopener noreferrer"
               >
                 WRITING
               </NavLink>

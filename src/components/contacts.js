@@ -9,7 +9,12 @@ const Contacts = () => {
       <div className="row text-center section-content">
         {contactList.map(contact => (
           <div className="col-sm-2" key={contact.url}>
-            <a href={contact.url} target="_blank" className="btn-social-icon">
+            <a
+              href={contact.url}
+              target="_blank"
+              className="btn-social-icon"
+              rel="noopener noreferrer"
+            >
               <span className={`fa fa-${contact.icon}`} />
             </a>
           </div>
