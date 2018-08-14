@@ -57,6 +57,9 @@ typings/
 # dotenv environment variables file
 .env
 
+# Build Path of Test Fixtures
+public/
+
 .cache/
 yarn-error.log
 
