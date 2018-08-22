@@ -1,7 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: "Maribel Duran || Home",
-    description: "Maribel Duran Personal Portfolio",
+    description:
+      "My mission as a developer is to contribute to applications that empower and motivate lives. Let's change the world together.",
     siteUrl: "https://www.maribelduran.com",
     author: "maribelduran",
     twitter: "maribeldotduran"

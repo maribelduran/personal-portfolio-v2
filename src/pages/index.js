@@ -13,16 +13,14 @@ import "./index.css";
 
 const HomePage = ({ data }) => {
   const siteTitle = data.site.siteMetadata.title;
+  const metaDescr = data.site.siteMetadata.description;
   const { edges: projectImgData } = data.ProjectImgs;
   const { edges: hobbyImgData } = data.HobbyImgs;
   return (
     <div>
       <Helmet>
         <title>{siteTitle}</title>
-        <meta
-          name="description"
-          content="My mission as a developer is to contribute to applications that empower and motivate lives. Let's change the world together."
-        />
+        <meta name="description" content={metaDescr} />
         <link rel="icon" type="/image/png" href={favicon} />
       </Helmet>
       <Cover coverImg={data.coverImg} />
@@ -44,6 +42,7 @@ export const query = graphql`
     site {
       siteMetadata {
         title
+        description
       }
     }
 
