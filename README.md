@@ -5,7 +5,7 @@ Hi! This is the source code for my [portfolio website](https://maribelduran.com)
 ## Tech stack
 
 - [Gatsby](https://gatsbyjs.org/) - static site generator
-- [Font Awesome](https://github.com/fortawesome/font-awesome) - icons
+- [Font Awesome](https://fontawesome.com/) - icons
 - [Bootstrap](https://getbootstrap.com/) - css framework
 - [Netlify](https://www.netlify.com/) - static site hosting
 
