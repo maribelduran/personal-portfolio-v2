@@ -5,7 +5,7 @@ import AboutMe from "../components/about-me";
 import Projects from "../components/projects";
 import Contacts from "../components/contacts";
 import Footer from "../components/footer";
-import Helmet from "react-helmet";
+import { Helmet } from "react-helmet";
 import favicon from "../static/logo/favicon.png";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "font-awesome/css/font-awesome.min.css";
@@ -17,10 +17,14 @@ const HomePage = ({ data }) => {
   const { edges: hobbyImgData } = data.HobbyImgs;
   return (
     <div>
-      <Helmet
-        title={siteTitle}
-        link={[{ rel: "icon", type: "image/png", href: `${favicon}` }]}
-      />
+      <Helmet>
+        <title>{siteTitle}</title>
+        <meta
+          name="description"
+          content="My mission as a developer is to contribute to applications that empower and motivate lives. Let's change the world together."
+        />
+        <link rel="icon" type="/image/png" href={favicon} />
+      </Helmet>
       <Cover coverImg={data.coverImg} />
       <div className="container-fluid main">
         <Navigation />
