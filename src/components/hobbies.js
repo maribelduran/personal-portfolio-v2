@@ -1,6 +1,5 @@
 import React from "react";
 import hobbyList from "../data/hobbies.json";
-import "./hobbies.css";
 
 const Hobbies = ({ icons }) => {
   return (
