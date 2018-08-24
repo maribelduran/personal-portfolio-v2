@@ -1,6 +1,5 @@
 import React from "react";
 import hobbyList from "../data/hobbies.json";
-import Img from "gatsby-image";
 import "./hobbies.css";
 
 const Hobbies = ({ icons }) => {
@@ -19,7 +18,8 @@ const Hobbies = ({ icons }) => {
                 <img
                   src={icon.node.childImageSharp.sizes.src}
                   alt={`${hobby.name} Icon`}
-                  className="hobby-icon"
+                  height={"30px"}
+                  width={"32px"}
                 />
               </span>
               {isExternal ? (
