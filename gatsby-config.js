@@ -9,6 +9,18 @@ module.exports = {
   },
   plugins: [
     {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Maribel Duran`,
+        short_name: `MaribelDuran`,
+        start_url: `/`,
+        background_color: `#337ab7`,
+        theme_color: `#337ab7`,
+        display: `fullscreen`,
+        icon: `src/static/logo/favicon.png` // This path is relative to the root of the site.
+      }
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `data`,
