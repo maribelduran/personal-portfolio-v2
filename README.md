@@ -8,7 +8,7 @@ Hi! This is the source code for my [portfolio website](https://maribelduran.com)
 - [Font Awesome](https://fontawesome.com/) - icons
 - [Bootstrap](https://getbootstrap.com/) - css framework
 - [Netlify](https://www.netlify.com/) - static site hosting
-- [Prettier](https://prettier.io/): An opinionated code formatter
+- [Prettier](https://prettier.io/) - An opinionated code formatter
 
 ## Sitemap
 
