@@ -21,7 +21,7 @@ const AboutMe = ({ profileImg, hobbyImgs }) => {
             <h4>What I hope to do</h4>
             <p>
               My mission as a developer is to contribute to applications that
-              empower and motivate lives. I believe that through code we can
+              empower and improve lives. I believe that through code we can
               make the world a better place by building products that empower
               communities. Yes, let's change the world together!
             </p>
@@ -38,7 +38,7 @@ const AboutMe = ({ profileImg, hobbyImgs }) => {
               </a>{" "}
               curriculum, an open source coding community. On top of
               FreeCodeCamp, I attend meetups and seminars, listen to engineering
-              podcasts, read tech blogs, and take other online courses in order
+              podcasts, read and write tech blogs, and take other online courses in order
               to help me develop a growth mindset and become a better developer.
               Throughout this journey, I have learned to accept failure and use
               it as an opportunity to learn and grow.
@@ -66,13 +66,13 @@ const AboutMe = ({ profileImg, hobbyImgs }) => {
               <h5>Toolbox</h5>
               <p>
                 <b>Languages and Frameworks:</b> Javascript, HTML5, CSS3,
-                jQuery, Bootstrap, NodeJS, ExpressJS, MongoDB
+                ReactJS, Bootstrap, NodeJS, ExpressJS, MongoDB, PostgreSQL
                 <br />
                 <b>IDE:</b> Microsoft VS Code
                 <br />
                 <b>VCS:</b> Git/Github
                 <br />
-                <b>PMS:</b> Trello
+                <b>PMS:</b> Trello, JIRA
                 <br />
                 <b>Debugger:</b> Chrome DevTools
                 <br />
@@ -83,8 +83,8 @@ const AboutMe = ({ profileImg, hobbyImgs }) => {
             <div className="box">
               <h5>Learning</h5>
               <p>
-                Currently: ReactJS and CSS Variables
-                <br /> On the radar: CSS Grid
+                Currently: Ruby, Jest
+                <br /> On the radar: GraphQL, CSS Grid
               </p>
             </div>
           </div>
@@ -93,12 +93,9 @@ const AboutMe = ({ profileImg, hobbyImgs }) => {
               <h5>Hacking on</h5>
               <p>
                 {" "}
-                1) Contributing to a Resiliency Map, which will help the city of
-                San Francisco prepare for a natural disaster.
+                1) Contributing fulltime to Worklete, an amazing product that is helping workers stay healthy, happy, and injury-free.
                 <br />
-                2) Rebuilding this website with GatsbyJS and ReactJS.
-                <br />
-                3) Voting App: A fullstack Javascript application.
+                2) Brainstorming a new technical blog post to write.
               </p>
             </div>
           </div>
