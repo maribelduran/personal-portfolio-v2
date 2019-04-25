@@ -37,7 +37,7 @@ const AboutMe = ({ profileImg, hobbyImgs }) => {
               </a>
               ,{" "}
               <a
-                href="https://medium.freecodecamp.org/my-journey-to-becoming-a-software-engineer-4ae301fc02b"
+                href="https://medium.freecodecamp.org/how-i-made-my-portfolio-website-blazing-fast-with-gatsby-82ccddc2f671"
                 target="_blank"
                 rel="noopener noreferrer"
               >
