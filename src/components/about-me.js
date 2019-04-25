@@ -21,41 +21,36 @@ const AboutMe = ({ profileImg, hobbyImgs }) => {
             <h4>What I hope to do</h4>
             <p>
               My mission as a developer is to contribute to applications that
-              empower and improve lives. I believe that through code we can
-              make the world a better place by building products that empower
+              empower and improve lives. I believe that through code we can make
+              the world a better place by building products that empower
               communities. Yes, let's change the world together!
             </p>
             <h4>What I'm doing</h4>
             <p>
-              {" "}
-              On my free time, I am building web applications through the{" "}
+              I recently{" "}
               <a
-                href="https://www.freecodecamp.com/"
+                href="https://medium.freecodecamp.org/my-journey-to-becoming-a-software-engineer-4ae301fc02b"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                FreeCodeCamp
-              </a>{" "}
-              curriculum, an open source coding community. On top of
-              FreeCodeCamp, I attend meetups and seminars, listen to engineering
-              podcasts, read and write tech blogs, and take other online courses in order
-              to help me develop a growth mindset and become a better developer.
-              Throughout this journey, I have learned to accept failure and use
-              it as an opportunity to learn and grow.
+                landed my first software engineer role
+              </a>
+              ,{" "}
+              <a
+                href="https://medium.freecodecamp.org/my-journey-to-becoming-a-software-engineer-4ae301fc02b"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                made this website blazing fast with Gatsby
+              </a>
+              , and gave my first meetup talk. I am helping others as I advance
+              in my career by sharing my experiences and perspectives through
+              writing, speaking, and mentoring.
             </p>
             <p>
-              I recently started{" "}
-              <a
-                href="https://medium.freecodecamp.org/hacktoberfest-my-gateway-to-open-source-f44c8778b022"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                {" "}
-                contributing to open source
-              </a>
-              , attended my first hackathon, and completed the 100
-              DaysOfCodeChallenge. I shared the skills and values gained on
-              Medium.
+              On my free time, I attend meetups, listen to engineering podcasts,
+              read tech blogs, and take other online courses in order to help me
+              develop a growth mindset and become a better developer.
             </p>
             <Hobbies icons={hobbyImgs} />
           </div>
@@ -83,8 +78,8 @@ const AboutMe = ({ profileImg, hobbyImgs }) => {
             <div className="box">
               <h5>Learning</h5>
               <p>
-                Currently: Ruby, Jest
-                <br /> On the radar: GraphQL, CSS Grid
+                Currently: Ruby, Jest, i18n/l10n
+                <br /> On the radar: GraphQL, React Hooks
               </p>
             </div>
           </div>
@@ -93,7 +88,8 @@ const AboutMe = ({ profileImg, hobbyImgs }) => {
               <h5>Hacking on</h5>
               <p>
                 {" "}
-                1) Contributing fulltime to Worklete, an amazing product that is helping workers stay healthy, happy, and injury-free.
+                1) Contributing fulltime to Worklete, an amazing product that is
+                helping workers stay healthy, happy, and injury-free.
                 <br />
                 2) Brainstorming a new technical blog post to write.
               </p>
