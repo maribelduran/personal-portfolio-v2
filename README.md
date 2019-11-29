@@ -2,6 +2,8 @@
 
 Hi! This is the source code for my [portfolio website](https://maribelduran.com), which I rebuilt using React and Gatsby. My technical blog post, [How I made my portfolio website blazing fast with Gatsby](https://medium.freecodecamp.org/how-i-made-my-portfolio-website-blazing-fast-with-gatsby-82ccddc2f671), goes over why I chose Gatsby. 
 
+You can check out my [portfolio-v1](https://github.com/maribelduran/portfolio-v1) repo, the initial implementation of this project. (When I first started building web apps and everything was thrown into an index.html file 😅)  
+
 ## Tech stack
 
 - [Gatsby](https://gatsbyjs.org/) - static site generator
