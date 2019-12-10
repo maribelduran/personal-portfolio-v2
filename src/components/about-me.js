@@ -29,7 +29,7 @@ const AboutMe = ({ profileImg, hobbyImgs }) => {
             <p>
               I recently{" "}
               <a
-                href="https://medium.freecodecamp.org/my-journey-to-becoming-a-software-engineer-4ae301fc02b"
+                href="https://medium.com/free-code-camp/my-journey-to-becoming-a-software-engineer-4ae301fc02b"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -37,7 +37,7 @@ const AboutMe = ({ profileImg, hobbyImgs }) => {
               </a>
               ,{" "}
               <a
-                href="https://medium.freecodecamp.org/how-i-made-my-portfolio-website-blazing-fast-with-gatsby-82ccddc2f671"
+                href="https://medium.com/free-code-camp/how-i-made-my-portfolio-website-blazing-fast-with-gatsby-82ccddc2f671"
                 target="_blank"
                 rel="noopener noreferrer"
               >
