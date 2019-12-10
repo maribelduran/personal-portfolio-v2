@@ -29,7 +29,7 @@ const AboutMe = ({ profileImg, hobbyImgs }) => {
             <p>
               I recently{" "}
               <a
-                href="https://medium.freecodecamp.org/my-journey-to-becoming-a-software-engineer-4ae301fc02b"
+                href="https://medium.com/free-code-camp/my-journey-to-becoming-a-software-engineer-4ae301fc02b"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -37,7 +37,7 @@ const AboutMe = ({ profileImg, hobbyImgs }) => {
               </a>
               ,{" "}
               <a
-                href="https://medium.freecodecamp.org/how-i-made-my-portfolio-website-blazing-fast-with-gatsby-82ccddc2f671"
+                href="https://medium.com/free-code-camp/how-i-made-my-portfolio-website-blazing-fast-with-gatsby-82ccddc2f671"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -60,14 +60,14 @@ const AboutMe = ({ profileImg, hobbyImgs }) => {
             <div className="box">
               <h5>Toolbox</h5>
               <p>
-                <b>Languages and Frameworks:</b> Javascript, HTML5, CSS3,
-                ReactJS, Bootstrap, NodeJS, ExpressJS, MongoDB, PostgreSQL
+                <b>Languages and Frameworks:</b> Javascript, HTML5, CSS3, React,
+                Bootstrap, Node, Express, MongoDB, Rails, PostgreSQL, Jest
                 <br />
                 <b>IDE:</b> Microsoft VS Code
                 <br />
                 <b>VCS:</b> Git/Github
                 <br />
-                <b>PMS:</b> Trello, JIRA
+                <b>PMS:</b> Trello
                 <br />
                 <b>Debugger:</b> Chrome DevTools
                 <br />
@@ -78,8 +78,8 @@ const AboutMe = ({ profileImg, hobbyImgs }) => {
             <div className="box">
               <h5>Learning</h5>
               <p>
-                Currently: Ruby, Jest, i18n/l10n
-                <br /> On the radar: GraphQL, React Hooks
+                Currently: Ally, Web Performance
+                <br /> On the radar: GraphQL, Typescript
               </p>
             </div>
           </div>
