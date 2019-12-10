@@ -78,7 +78,7 @@ const AboutMe = ({ profileImg, hobbyImgs }) => {
             <div className="box">
               <h5>Learning</h5>
               <p>
-                Currently: Ally, Web Performance
+                Currently: Accessibility, Web Performance
                 <br /> On the radar: GraphQL, Typescript
               </p>
             </div>
