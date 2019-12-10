@@ -61,7 +61,7 @@ const AboutMe = ({ profileImg, hobbyImgs }) => {
               <h5>Toolbox</h5>
               <p>
                 <b>Languages and Frameworks:</b> Javascript, HTML5, CSS3, React,
-                Bootstrap, Node, Express, MongoDB, Rails, PostgreSQL, Jest
+                Bootstrap, Node, Express, MongoDB, Rails, Postgres, Jest
                 <br />
                 <b>IDE:</b> Microsoft VS Code
                 <br />
