@@ -1,6 +1,6 @@
 .box {
   padding: 15px;
-  margin-bottom: 40px;
+  margin: 15px 0 15px;
   border-style: solid;
   border-color: rgba(51, 122, 183, 0.1);
   border-width: thin;
