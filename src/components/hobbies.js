@@ -8,7 +8,7 @@ const Hobbies = ({ icons }) => {
       <p>
         {hobbyList.map((hobby, i) => {
           let isExternal = hobby.external_url;
-          const icon = icons.find(n => {
+          const icon = icons.find((n) => {
             return n.node.relativePath === `icons/${hobby.img}`;
           });
           return (
