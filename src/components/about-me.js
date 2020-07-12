@@ -29,28 +29,31 @@ const AboutMe = ({ profileImg, hobbyImgs }) => {
             <p>
               I recently{" "}
               <a
-                href="https://medium.com/free-code-camp/my-journey-to-becoming-a-software-engineer-4ae301fc02b"
+                href="https://www.freecodecamp.org/news/how-i-was-landing-software-engineer-interviews-after-being-laid-off-2/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                landed my first software engineer role
+                shared all of the resources and strategies I used to land many
+                software engineer interviews
               </a>
-              ,{" "}
+              .
+            </p>
+            <p>
+              I am helping others as I advance in my career by sharing my
+              experiences and perspectives through writing, speaking, and{" "}
               <a
-                href="https://medium.com/free-code-camp/how-i-made-my-portfolio-website-blazing-fast-with-gatsby-82ccddc2f671"
+                href="https://mentors.codingcoach.io/?name=MARIBEL+DURAN"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                made this website blazing fast with Gatsby
+                mentoring
               </a>
-              , and gave my first meetup talk. I am helping others as I advance
-              in my career by sharing my experiences and perspectives through
-              writing, speaking, and mentoring.
+              .
             </p>
             <p>
               On my free time, I attend meetups, listen to engineering podcasts,
-              read tech blogs, and take other online courses in order to help me
-              develop a growth mindset and become a better developer.
+              read tech blogs, and take online courses to help me become a
+              better developer for the people around me.
             </p>
             <Hobbies icons={hobbyImgs} />
           </div>
@@ -88,10 +91,12 @@ const AboutMe = ({ profileImg, hobbyImgs }) => {
               <h5>Hacking on</h5>
               <p>
                 {" "}
-                1) Contributing fulltime to Worklete, an amazing product that is
-                helping workers stay healthy, happy, and injury-free.
+                1) Contributing fulltime to NerdWallet. We're on a mission to
+                provide clarity for all of life’s financial decisions.
                 <br />
-                2) Brainstorming a new technical blog post to write.
+                2) Making this website more accessible.
+                <br />
+                3) Brainstorming a new technical blog post to write.
               </p>
             </div>
           </div>
