@@ -22,6 +22,7 @@ const HomePage = ({ data }) => {
         <title>{siteTitle}</title>
         <meta name="description" content={metaDescr} />
         <link rel="icon" type="/image/png" href={favicon} />
+        <html lang="en" />
       </Helmet>
       <Cover coverImg={data.coverImg} />
       <div className="container-fluid main">
