@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { FormGroup, FormControl } from "react-bootstrap";
+import { FormGroup, FormControl, ControlLabel } from "react-bootstrap";
 import Img from "gatsby-image";
 import classNames from "classnames";
 import "./projects.css";
@@ -13,7 +13,10 @@ const Projects = ({ projectImgs }) => {
       <h2 className="text-center">PROJECTS</h2>
       <div className="section-content">
         <div className="subheader">
-          <FormGroup controlId="formControlsSelect">
+          <FormGroup controlId="project-type-select">
+            <ControlLabel className="visually-hidden">
+              Select a project type
+            </ControlLabel>
             <FormControl
               componentClass="select"
               placeholder="select"
