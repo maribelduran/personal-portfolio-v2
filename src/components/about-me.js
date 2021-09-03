@@ -81,8 +81,8 @@ const AboutMe = ({ profileImg, hobbyImgs }) => {
             <div className="box">
               <h5>Learning</h5>
               <p>
-                Currently: Accessibility, Web Performance
-                <br /> On the radar: GraphQL, Typescript
+                Currently: GraphQL, Typescript, Accessibility
+                <br /> On the radar: Web Performance
               </p>
             </div>
           </div>
@@ -94,7 +94,15 @@ const AboutMe = ({ profileImg, hobbyImgs }) => {
                 1) Contributing fulltime to NerdWallet. We're on a mission to
                 provide clarity for all of life’s financial decisions.
                 <br />
-                2) Making this website more accessible.
+                2) Making this website more{" "}
+                <a
+                  href="https://github.com/maribelduran/personal-portfolio-v2/pull/14"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  accessible
+                </a>
+                .
                 <br />
                 3) Brainstorming a new technical blog post to write.
               </p>
