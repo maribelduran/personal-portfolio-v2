@@ -18,7 +18,7 @@
     "bootstrap": "^4.4.1",
     "classnames": "^2.2.6",
     "font-awesome": "^4.7.0",
-    "gatsby": "^1.9.279",
+    "gatsby": "^5.14.4",
     "gatsby-image": "^1.0.55",
     "gatsby-link": "^1.6.46",
     "gatsby-plugin-google-analytics": "^1.0.31",
